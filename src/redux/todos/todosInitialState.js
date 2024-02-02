@@ -12,8 +12,8 @@ export const initialTodoState = [
     color: "red",
   },
   {
-    id: 2,
+    id: 3,
     title: "Learn Node",
-    completed: "In Progress"
+    completed: false
   },
 ];

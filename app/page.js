@@ -5,25 +5,23 @@ import TodoList from "@/src/components/TodoList";
 
 export default function Home() {
   return (
-    <body>
-      <div className="grid place-items-center bg-blue-100 h-screen px-6 font-sans">
-        {/* <!-- navbar --> */}
+    <div className="grid place-items-center bg-blue-100 h-screen px-6 font-sans">
+      {/* <!-- navbar --> */}
 
-        <Navbar />
-        <div className="w-full max-w-3xl shadow-lg rounded-lg p-6 bg-white">
-          {/* <!-- header --> */}
-          <Header />
-          <hr className="mt-4" />
+      <Navbar />
+      <div className="w-full max-w-3xl shadow-lg rounded-lg p-6 bg-white">
+        {/* <!-- header --> */}
+        <Header />
+        <hr className="mt-4" />
 
-          {/* <!-- todo list --> */}
+        {/* <!-- todo list --> */}
 
-          <TodoList />
-          <hr className="mt-4" />
+        <TodoList />
+        <hr className="mt-4" />
 
-          {/* <!-- footer --> */}
-          <Footer />
-        </div>
+        {/* <!-- footer --> */}
+        <Footer />
       </div>
-    </body>
+    </div>
   );
 }
